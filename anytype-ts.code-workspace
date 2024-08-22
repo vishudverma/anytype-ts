@@ -17,6 +17,22 @@
         "editor.formatOnSave": false,
         "editor.formatOnPaste": false,
         "editor.formatOnType": false,
-        "debug.inlineValues": "on"
+        "debug.inlineValues": "on",
+        "sqltools.connections": [
+            {
+                "mysqlOptions": {
+                    "authProtocol": "xprotocol",
+                    "enableSsl": "Disabled"
+                },
+                "previewLimit": 50,
+                "server": "localhost",
+                "port": 33060,
+                "driver": "MySQL",
+                "name": "fauji-pc",
+                "database": "home",
+                "username": "root",
+                "connectionTimeout": 1000
+            }
+        ]
     }
 }
